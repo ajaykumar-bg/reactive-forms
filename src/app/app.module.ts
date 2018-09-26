@@ -19,12 +19,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
 import { BasicFormComponent } from './basic-form/basic-form.component';
+import { NestedFormComponent } from './nested-form/nested-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicFormComponent
+    BasicFormComponent,
+    NestedFormComponent
   ],
   imports: [
     BrowserModule,
