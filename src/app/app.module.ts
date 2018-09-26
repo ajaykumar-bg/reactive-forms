@@ -20,13 +20,15 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
 import { BasicFormComponent } from './basic-form/basic-form.component';
 import { NestedFormComponent } from './nested-form/nested-form.component';
+import { DynamicArrayFormComponent } from './dynamic-array-form/dynamic-array-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicFormComponent,
-    NestedFormComponent
+    NestedFormComponent,
+    DynamicArrayFormComponent
   ],
   imports: [
     BrowserModule,
