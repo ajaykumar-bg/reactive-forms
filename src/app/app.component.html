@@ -1,29 +1,19 @@
 <main>
-  <h3>Oh hello</h3>
   <p>Angular Reactive Forms </p>
-  
-  <h1>Basic Form</h1>
 
-  <app-basic-form></app-basic-form>
+  <nav>
+    <a routerLink="/basic-form">Basic Form</a>
+    <a routerLink="/nested-form">Nested Form</a>
+    <a routerLink="/dynamic-form-array">Dynamic Form Array</a>
+    <a routerLink="/validation-form">Validation Form</a>
+  </nav>
 
-  <h1>Nested Form</h1>
 
-  <app-nested-form></app-nested-form>
 
-  <h1>Dynamic Forms with FormArray</h1>
-
-  <app-dynamic-array-form></app-dynamic-array-form>
-
-  <h1>Validation Form</h1>
-
-  <app-validate-form></app-validate-form>
-
-  <!-- <h1>Form Submission</h1>
-
-  <submit-form></submit-form> -->
+  <router-outlet></router-outlet>
 
 </main>
 
 
 
-<!-- <router-outlet></router-outlet> -->
+<router-outlet></router-outlet>

@@ -18,6 +18,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
+import {MatTabsModule} from '@angular/material/tabs';
+
+
 import { BasicFormComponent } from './basic-form/basic-form.component';
 import { NestedFormComponent } from './nested-form/nested-form.component';
 import { DynamicArrayFormComponent } from './dynamic-array-form/dynamic-array-form.component';
@@ -42,7 +45,8 @@ import { ValidateFormComponent } from './validate-form/validate-form.component';
     MatButtonModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatChipsModule
+    MatChipsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
