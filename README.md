@@ -1,5 +1,7 @@
 # ReactiveForms
 
+Reactive-forms with angular 6, angular material input fields and form validations
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
 ## Development server
